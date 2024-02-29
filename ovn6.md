@@ -2,7 +2,7 @@
 ### Fredag 12/5 kl 8.00
 
 - Gör (minst) en fil per uppgift och lägg filerna i katalogen <code>username-ovn6</code> i organisationen [grudat23 på KTH GitHub](https://gits-15.sys.kth.se/grudat23).
-- Utgå från mallarna i [/grudat23/ovn0/](https://github.com/yourbasic/grudat23/tree/master/ovn0).
+- Utgå från mallarna i [/grudat23/ovn0/](https://github.com/isakemma/grudat/tree/master/ovn0).
 - Lösningar ska vara inlämnade före deadline.
 
 Den här gången ska du testa vissa av dina lösningar på Kattis
@@ -16,7 +16,7 @@ Mer information om Kattis hittar du i den här utmärkta [exempelmanualen](https
 ## Individuellt projekt
 
 Observera att en första version av API och övrig dokumentation till
-det [individuella projektet](https://github.com/yourbasic/grudat23/blob/master/ovn7.md)
+det [individuella projektet](https://github.com/isakemma/grudat/blob/master/ovn7.md)
 ska vara klar redan till denna övning.
 
 [Tips om projektet](https://www.youtube.com/watch?v=dzo3TO_v0uk) (video)
@@ -26,7 +26,7 @@ ska vara klar redan till denna övning.
 ### Dynamisk programmering
 
 <!-- CC BY-SA 2.0: https://www.flickr.com/photos/bekathwia/5148701602 -->
-![Knitting machine HACKED](https://github.com/yourbasic/grudat23/blob/master/knitting-machine-hacked.jpg)
+![Knitting machine HACKED](https://github.com/isakemma/grudat/blob/master/knitting-machine-hacked.jpg)
 
 [Hacking the Brother KH-930e Knitting Machine](https://www.youtube.com/watch?v=GhnTSWMMtdU)
 
