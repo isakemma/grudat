@@ -20,7 +20,7 @@ som redovisas **muntligt** i samband med de **obligatoriska** övningarna.
 - [Övning 4](https://github.com/isakemma/grudat/blob/master/ovn4.md) (26/4 kl 08.00)
 - [Övning 5](https://github.com/isakemma/grudat/blob/master/ovn5.md) (3/5 kl 08.00)
 - [Övning 6](https://github.com/isakemma/grudat/blob/master/ovn6.md) (8/5 kl 13.00)
-- [Övning 7](https://github.com/isakemma/grudat/blob/master/ovn7.md) (Del 1: 21/5 kl 10.00, Del 2: tisdag 28/5 kl 10.00)
+- [Övning 7](https://github.com/isakemma/grudat/blob/master/ovn7.md) (Del 1: 8/5 kl 10.00, Del 2: tisdag 28/5 kl 10.00)
 
 Övning x på kursen ska lämnas in i katalogen
 <code>username-ovnx</code> i organisationen [grudat24 på KTH GitHub](https://gits-15.sys.kth.se/grudat24).
