@@ -1,5 +1,5 @@
 # Övning 5 grudat24
-### Fredag 333 kl 08.00
+### Fredag 3/5 kl 08.00
 
 **Vid övningen ska du vara beredd att muntligt presentera och diskutera dina lösningar och din programkod.**
 
