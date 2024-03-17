@@ -1,5 +1,5 @@
 # Övning 1 grudat24
-### Onsdag 27/3 kl 08.00
+### Onsdag 27/3 kl 13.00
 
 - Gör (minst) en fil per uppgift och lägg filerna i katalogen <code>username-ovn1</code> i organisationen [grudat24 på KTH GitHub](https://gits-15.sys.kth.se/grudat24).
 - Utgå från mallarna i [/grudat24/ovn0/](https://github.com/isakemma/grudat/tree/master/ovn0).
