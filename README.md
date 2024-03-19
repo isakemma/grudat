@@ -1,3 +1,5 @@
+Detta är en klon av https://github.com/yourbasic/grudat23, med ägarens tillstånd, omskriven för nästa kursomgång med ny kursansvarig.
+
 # grudat24
 
 ### Övningar [DD1327](https://www.kth.se/social/course/DD1327/) Grundläggande datalogi 2024
