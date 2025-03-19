@@ -1,15 +1,15 @@
-# Övning 6 grudat24
+# Övning 6 grudat25
 ### Onsdag 8/5 kl 13.00
 
-- Gör (minst) en fil per uppgift och lägg filerna i katalogen <code>username-ovn6</code> i organisationen [grudat24 på KTH GitHub](https://gits-15.sys.kth.se/grudat24).
-- Utgå från mallarna i [/grudat24/ovn0/](https://github.com/isakemma/grudat/tree/master/ovn0).
+- Gör (minst) en fil per uppgift och lägg filerna i katalogen <code>username-ovn6</code> i organisationen [grudat25 på KTH GitHub](https://gits-15.sys.kth.se/grudat25).
+- Utgå från mallarna i [/grudat25/ovn0/](https://github.com/isakemma/grudat/tree/master/ovn0).
 - Lösningar ska vara inlämnade före deadline.
 
 Den här gången ska du testa vissa av dina lösningar på Kattis
 innan du lämnar in dem på ditt githubkonto.
 
 1. Du får tillgång till Kattis genom att [logga in](https://kth.kattis.com/login) med ditt KTH-id.
-2. Du måste också [registrera dig på grudat24](https://kth.kattis.com/courses/DD1327/grudat24/register) i Kattis. (Kursomgången finns ännu inte i Kattis.)
+2. Du måste också [registrera dig på grudat25](https://kth.kattis.com/courses/DD1327/grudat25/register) i Kattis. (Kursomgången finns ännu inte i Kattis.)
 
 Mer information om Kattis hittar du i den här utmärkta [exempelmanualen](https://kth.kattis.com/help).
 
@@ -55,7 +55,7 @@ Följande rekursion beräknar den maximala inkomsten p(n) som man kan tjäna gen
 
 ### Reguljära uttryck (Kattis)
 
-#### Uppgift [kth.progp.s1](https://kth.kattis.com/courses/DD1327/grudat24/assignments/x7p6as/problems/kth.progp.s1)
+#### Uppgift [kth.progp.s1](https://kth.kattis.com/courses/DD1327/grudat25/assignments/x7p6as/problems/kth.progp.s1)
 
 [Tips om reguljära uttryck](https://www.youtube.com/watch?v=NvKvCXac7sM) (video)
 

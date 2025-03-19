@@ -1,8 +1,8 @@
-# Övning 1 grudat24
+# Övning 1 grudat25
 ### Onsdag 27/3 kl 13.00
 
-- Gör (minst) en fil per uppgift och lägg filerna i katalogen <code>username-ovn1</code> i organisationen [grudat24 på KTH GitHub](https://gits-15.sys.kth.se/grudat24).
-- Utgå från mallarna i [/grudat24/ovn0/](https://github.com/isakemma/grudat/tree/master/ovn0).
+- Gör (minst) en fil per uppgift och lägg filerna i katalogen <code>username-ovn1</code> i organisationen [grudat25 på KTH GitHub](https://gits-15.sys.kth.se/grudat25).
+- Utgå från mallarna i [/grudat25/ovn0/](https://github.com/isakemma/grudat/tree/master/ovn0).
 - Lösningar ska vara inlämnade före deadline.
 - Du kommer att få återkoppling på din inlämning i form av en **issue**, antingen att uppgiften är godkänd eller att den behöver kompletteras.
 - Normalt kommer återkopplingen senast på onsdagen veckan efter inlämning.

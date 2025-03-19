@@ -1,6 +1,6 @@
 Detta är en klon av https://github.com/yourbasic/grudat23, med ägarens tillstånd, omskriven för nästa kursomgång med ny kursansvarig.
 
-# grudat24
+# grudat25
 
 ### Övningar [DD1327](https://www.kth.se/social/course/DD1327/) Grundläggande datalogi 2024
 
@@ -25,7 +25,7 @@ som redovisas **muntligt** i samband med de **obligatoriska** övningarna.
 - [Övning 7](https://github.com/isakemma/grudat/blob/master/ovn7.md) (Del 1: 8/5 kl 13.00, Del 2: tisdag 21/5 kl 10.00)
 
 Övning x på kursen ska lämnas in i katalogen
-<code>username-ovnx</code> i organisationen [grudat24 på KTH GitHub](https://gits-15.sys.kth.se/grudat24).
+<code>username-ovnx</code> i organisationen [grudat25 på KTH GitHub](https://gits-15.sys.kth.se/grudat25).
 
 Användaren `kim` hittar alltså sitt repo för övning 1 på adressen
-<code>gits-15.sys.kth.se/grudat24/kim-ovn1</code>.
+<code>gits-15.sys.kth.se/grudat25/kim-ovn1</code>.
