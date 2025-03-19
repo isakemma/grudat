@@ -82,12 +82,21 @@ public LinkedList:
     public string() string
 </code></pre>
 
+Den här gången ska du testa vissa av dina lösningar på Kattis
+innan du lämnar in dem på ditt githubkonto.
+
+1. Du får tillgång till Kattis genom att [logga in](https://kth.kattis.com/login) med ditt KTH-id.
+2. Du måste också [registrera dig på grudat25](https://kth.kattis.com/courses/DD1327/grudat25/register) i Kattis. 
+3. Om du gör uppgiften på workshop-passet, skapa en grupp i Kattis för uppgiften Workshop-problem med dina gruppkamrater så plagiatflaggas ni inte när ni skickar in samma kod.
+
+Mer information om Kattis hittar du i den här utmärkta [exempelmanualen](https://kth.kattis.com/help).
+
 - Skriv <b>utförlig testkod</b> för en pythonimplementation av ovanstående api med pythons inbyggda modul unittest. Alla publika metoder ska testas.
   Glöm inte att kontrollera beteendet även för den tomma listan! Se exemplet [github.com/isakemma/grudat/blob/master/ovn0/StackTest.py](https://github.com/isakemma/grudat/blob/master/ovn0/StackTest.py)
 
 - Denna del (1.1) av hemuppgiften får lösas i grupp om du deltar i Workshop-passet den 20/3 kl 15-18.
 
-- Du får hjälp att verifiera att du testat tillräckligt noga av systemet Kattis. Registrera dig på kursen grudat25 (https://kth.kattis.com/courses/DD1327/grudat25) och skapa en grupp med dina gruppkamrater om du gör uppgiften på kursens workshop.
+- Du får hjälp att verifiera att du testat tillräckligt noga av Kattis. 
 
 - Du kan arbeta iterativt och skicka in dina testfall till Kattis (https://kth.kattis.com/courses/DD1327/grudat25/assignments/m4m3pf/problems/kth.testthelist). Inga av testfallen i Kattis handlar om att alla element som lagras i listan har samma typ, eller om det exakta värdet, alltså behöver du inte kolla om det finns en specifik sträng eller ett specifikt tal som har sönder någon av implementationerna.
 
@@ -112,9 +121,9 @@ Ditt program ska bestå av två klasser:
 
 Titta gärna på exempelmallarna för Stacken i övning 0. (De visar hur man kan skriva och testa en klass i Python men även Java och Go):
 
-- [github.com/isakemma/grudat/blob/master/ovn0/uppg3.py](https://github.com/isakemma/grudat/blob/master/ovn0/uppg3.py)
+- [github.com/isakemma/grudat/blob/master/ovn0/stack.py](https://github.com/isakemma/grudat/blob/master/ovn0/stack.py)
 - [github.com/isakemma/grudat/blob/master/ovn0/Stack.java](https://github.com/isakemma/grudat/blob/master/ovn0/Stack.java)
-- [github.com/isakemma/grudat/blob/master/ovn0/uppg3.go](https://github.com/isakemma/grudat/blob/master/ovn0/uppg3.go)
+- [github.com/isakemma/grudat/blob/master/ovn0/stack.go](https://github.com/isakemma/grudat/blob/master/ovn0/stack.go)
 
 [Tips och råd](https://www.youtube.com/watch?v=SH72Eyelbs4) (video)
 
@@ -128,8 +137,8 @@ Titta gärna på exempelmallarna för Stacken i övning 0. (De visar hur man kan
 
 Utgå från en av mallarna
 
-- [github.com/isakemma/grudat/blob/master/ovn0/uppg2.py](https://github.com/isakemma/grudat/blob/master/ovn0/uppg2.py)
-- [github.com/isakemma/grudat/blob/master/ovn0/Uppg2.java](https://github.com/isakemma/grudat/blob/master/ovn0/Uppg2.java)
-- [github.com/isakemma/grudat/blob/master/ovn0/uppg2.go](https://github.com/isakemma/grudat/blob/master/ovn0/uppg2.go)
+- [github.com/isakemma/grudat/blob/master/ovn0/odd.py](https://github.com/isakemma/grudat/blob/master/ovn0/odd.py)
+- [github.com/isakemma/grudat/blob/master/ovn0/Odd.java](https://github.com/isakemma/grudat/blob/master/ovn0/Odd.java)
+- [github.com/isakemma/grudat/blob/master/ovn0/odd.go](https://github.com/isakemma/grudat/blob/master/ovn0/odd.go)
 
 [Tips och råd](https://www.youtube.com/watch?v=QRYvu1-H1xQ) (video)

@@ -1,5 +1,5 @@
 // Nisse Nilsson, grudat25 uppg 0.2
-public class Uppg2 {
+public class Odd {
 	/**
 	 * Tells if n is an odd number.
 	 */
