@@ -82,8 +82,8 @@ public LinkedList:
     public string() string
 </code></pre>
 
-- Skriv <b>utförlig testkod</b> med pythons inbyggda modul unittest. Alla publika metoder ska testas.
-  Glöm inte att kontrollera beteendet även för den tomma listan!
+- Skriv <b>utförlig testkod</b> för en pythonimplementation av ovanstående api med pythons inbyggda modul unittest. Alla publika metoder ska testas.
+  Glöm inte att kontrollera beteendet även för den tomma listan! Se exemplet [github.com/isakemma/grudat/blob/master/ovn0/StackTest.py](https://github.com/isakemma/grudat/blob/master/ovn0/StackTest.py)
 
 - Denna del (1.1) av hemuppgiften får lösas i grupp om du deltar i Workshop-passet den 20/3 kl 15-18.
 
