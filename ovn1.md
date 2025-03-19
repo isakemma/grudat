@@ -1,31 +1,19 @@
 # Övning 1 grudat25
 ### Deadline: Fredag 21/3 kl 19:00
+- **Vid övningen ska du vara beredd att muntligt presentera och diskutera dina lösningar och din programkod. Du ska också ha med en utskrift av din inlämning för kamratgranskning på övningen.**
 
 - Gör (minst) en fil per uppgift och lägg filerna i katalogen <code>username-ovn1</code> i organisationen [grudat25 på KTH GitHub](https://gits-15.sys.kth.se/grudat25).
 - Utgå från mallarna i [/grudat25/ovn0/](https://github.com/isakemma/grudat/tree/master/ovn0).
 - Lösningar ska vara inlämnade före deadline.
-- **Vid övningen ska du vara beredd att muntligt presentera och diskutera dina lösningar och din programkod.**
 - Du kommer att få återkoppling på din inlämning i form av ett **issue**, antingen att uppgiften är godkänd eller att den behöver kompletteras.
 - Normalt kommer återkopplingen senast på torsdagen veckan efter inlämning.
 
-Du väljer själv vilket av programspråken Python, Go eller Java du vill använda.
+För den länkade listan kan du bara använda programspråket Python. För den andra uppgiften väljer du själv vilket av programspråken Python, Go eller Java du vill använda.
 **Observera att all kod på den här kursen ska dokumenteras och testas.**
 
 ## Betyg G
 
-### 1.1 Fakultet
-
-- Implementera fakultetsfunktionen för heltal.
-
-Utgå från en av mallarna
-
-- [github.com/isakemma/grudat/blob/master/ovn0/uppg2.py](https://github.com/isakemma/grudat/blob/master/ovn0/uppg2.py)
-- [github.com/isakemma/grudat/blob/master/ovn0/Uppg2.java](https://github.com/isakemma/grudat/blob/master/ovn0/Uppg2.java)
-- [github.com/isakemma/grudat/blob/master/ovn0/uppg2.go](https://github.com/isakemma/grudat/blob/master/ovn0/uppg2.go)
-
-[Tips och råd](https://www.youtube.com/watch?v=QRYvu1-H1xQ) (video)
-
-### 1.2 Länkade listor
+### 1.1 Testning av Länkade listor
 
 En **lista** (array), ett antal element ordnade i en linjär struktur, är den kanske enklaste och mest grundläggande datastrukturen.
 
@@ -50,11 +38,6 @@ private ListElement:
     data T
     next ListElement
 </code></pre>
-
-
-- Implementera en enkellänkad lista i form av en klass som innehåller funktionerna i följande **pseudokod**.
-  Du får inte ändra klassens gränssnitt, dvs du får inte ändra **signaturerna** eller **dokumentationskommentarerna**
-  på de  publika metoderna eller lägga till några andra publika metoder.
 
 <pre><code># A singly linked list of elements of type T.
 public LinkedList:
@@ -99,12 +82,21 @@ public LinkedList:
     public string() string
 </code></pre>
 
-- Beräkna den asymptotiska värstafallstiden för samtliga publika metoder i din implementation.
+- Skriv <b>utförlig testkod</b> med pythons inbyggda modul unittest. Alla publika metoder ska testas.
+  Glöm inte att kontrollera beteendet även för den tomma listan!
+  Du kan arbeta iterativt och skicka in dina testfall till [Kattis] (https://kth.kattis.com/courses/DD1327/grudat25/assignments/m4m3pf/problems/kth.testthelist). Denna del (1.1) av hemuppgiften får lösas i grupp om du deltar i Workshop-passet den 20/3 kl 15-18.
+
+
+### 1.2 Egen listimplementation 
+
+- Implementera en enkellänkad lista i form av en klass som innehåller funktionerna i ovanstående **pseudokod**.
+  Du får inte ändra klassens gränssnitt, dvs du får inte ändra **signaturerna** eller **dokumentationskommentarerna**
+  på de  publika metoderna eller lägga till några andra publika metoder. Klassen ska kunna testas med din färdiga testsvit.
+  Jag rekommenderar att du testar den ofta medan du skriver den!
+
+- Beräkna den asymptotiska värstafallstiden för samtliga publika metoder i din implementation. (Gås igenom på föreläsning 2.)
   Uttryck tiden som en funktion av antalet element&nbsp;<i>n</i> i listan.
 
-- Skriv <b>utförlig testkod</b>. Alla publika metoder ska testas.
-  Glöm inte att kontrollera att din kod fungerar även för den tomma listan.
-  Jag rekommenderar att du skriver testkoden först.
 
 #### Tips
 
@@ -113,7 +105,7 @@ Ditt program ska bestå av två klasser:
 - <code>LinkedList</code> är den publika delen av programmet,
 - <code>ListElement</code> är en privat hjälpklass som implementerar ett element i den länkade listan.
 
-Titta gärna på exempelmallarna. De visar hur man kan skriva och testa en klass i Python, Java respektive Go:
+Titta gärna på exempelmallarna för Stacken i övning 0. (De visar hur man kan skriva och testa en klass i Python men även Java och Go):
 
 - [github.com/isakemma/grudat/blob/master/ovn0/uppg3.py](https://github.com/isakemma/grudat/blob/master/ovn0/uppg3.py)
 - [github.com/isakemma/grudat/blob/master/ovn0/Stack.java](https://github.com/isakemma/grudat/blob/master/ovn0/Stack.java)
@@ -121,4 +113,18 @@ Titta gärna på exempelmallarna. De visar hur man kan skriva och testa en klass
 
 [Tips och råd](https://www.youtube.com/watch?v=SH72Eyelbs4) (video)
 
+### 1.3 Testreflektion (ca en A4-sida)
+- Vilka sorters fel letar dina testfall efter? Vad är det sannolikt för fel på de testade implementationerna i Kattisproblemet? Räkna upp minst fem olika saker som måste ha varit felimplementerade!
+- Hur fungerade det att skriva den länkade listan när du hade testfallen klara? Brukar du göra så?
 
+### 1.4 Eget litet program med test och dokumentation: Fakultet
+
+- Implementera fakultetsfunktionen för heltal.
+
+Utgå från en av mallarna
+
+- [github.com/isakemma/grudat/blob/master/ovn0/uppg2.py](https://github.com/isakemma/grudat/blob/master/ovn0/uppg2.py)
+- [github.com/isakemma/grudat/blob/master/ovn0/Uppg2.java](https://github.com/isakemma/grudat/blob/master/ovn0/Uppg2.java)
+- [github.com/isakemma/grudat/blob/master/ovn0/uppg2.go](https://github.com/isakemma/grudat/blob/master/ovn0/uppg2.go)
+
+[Tips och råd](https://www.youtube.com/watch?v=QRYvu1-H1xQ) (video)
