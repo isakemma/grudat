@@ -84,7 +84,12 @@ public LinkedList:
 
 - Skriv <b>utförlig testkod</b> med pythons inbyggda modul unittest. Alla publika metoder ska testas.
   Glöm inte att kontrollera beteendet även för den tomma listan!
-  Du kan arbeta iterativt och skicka in dina testfall till [Kattis] (https://kth.kattis.com/courses/DD1327/grudat25/assignments/m4m3pf/problems/kth.testthelist). Denna del (1.1) av hemuppgiften får lösas i grupp om du deltar i Workshop-passet den 20/3 kl 15-18.
+
+- Denna del (1.1) av hemuppgiften får lösas i grupp om du deltar i Workshop-passet den 20/3 kl 15-18.
+
+- Du får hjälp att verifiera att du testat tillräckligt noga av systemet Kattis. Registrera dig på kursen grudat25 (https://kth.kattis.com/courses/DD1327/grudat25) och skapa en grupp med dina gruppkamrater om du gör uppgiften på kursens workshop.
+
+- Du kan arbeta iterativt och skicka in dina testfall till Kattis (https://kth.kattis.com/courses/DD1327/grudat25/assignments/m4m3pf/problems/kth.testthelist). Inga av testfallen i Kattis handlar om att alla element som lagras i listan har samma typ, eller om det exakta värdet, alltså behöver du inte kolla om det finns en specifik sträng eller ett specifikt tal som har sönder någon av implementationerna.
 
 
 ### 1.2 Egen listimplementation 
