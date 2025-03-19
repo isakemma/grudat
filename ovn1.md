@@ -1,6 +1,10 @@
 # Övning 1 grudat25
 ### Deadline: Fredag 21/3 kl 19:00
-- **Vid övningen ska du vara beredd att muntligt presentera och diskutera dina lösningar och din programkod. Du ska också ha med en utskrift av din inlämning för kamratgranskning på övningen.**
+Mål:
+- Systematiskt testa program för att upptäcka fel
+- Använda abstraktion som ett verktyg för att förenkla programmeringen
+
+**Vid övningen ska du vara beredd att muntligt presentera och diskutera dina lösningar och din programkod. Du ska också ha med en utskrift av din inlämning för kamratgranskning på övningen.**
 
 - Gör (minst) en fil per uppgift och lägg filerna i katalogen <code>username-ovn1</code> i organisationen [grudat25 på KTH GitHub](https://gits-15.sys.kth.se/grudat25).
 - Utgå från mallarna i [/grudat25/ovn0/](https://github.com/isakemma/grudat/tree/master/ovn0).
