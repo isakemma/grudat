@@ -1,11 +1,12 @@
 # Övning 1 grudat25
-### Onsdag 27/3 kl 13.00
+### Deadline: Fredag 21/3 kl 19:00
 
 - Gör (minst) en fil per uppgift och lägg filerna i katalogen <code>username-ovn1</code> i organisationen [grudat25 på KTH GitHub](https://gits-15.sys.kth.se/grudat25).
 - Utgå från mallarna i [/grudat25/ovn0/](https://github.com/isakemma/grudat/tree/master/ovn0).
 - Lösningar ska vara inlämnade före deadline.
-- Du kommer att få återkoppling på din inlämning i form av en **issue**, antingen att uppgiften är godkänd eller att den behöver kompletteras.
-- Normalt kommer återkopplingen senast på onsdagen veckan efter inlämning.
+- **Vid övningen ska du vara beredd att muntligt presentera och diskutera dina lösningar och din programkod.**
+- Du kommer att få återkoppling på din inlämning i form av ett **issue**, antingen att uppgiften är godkänd eller att den behöver kompletteras.
+- Normalt kommer återkopplingen senast på torsdagen veckan efter inlämning.
 
 Du väljer själv vilket av programspråken Python, Go eller Java du vill använda.
 **Observera att all kod på den här kursen ska dokumenteras och testas.**
@@ -120,31 +121,4 @@ Titta gärna på exempelmallarna. De visar hur man kan skriva och testa en klass
 
 [Tips och råd](https://www.youtube.com/watch?v=SH72Eyelbs4) (video)
 
-## Betyg VG
-
-### 1.3 Mera testning
-
-Det kan vara svårt att testa datastrukturer;
-en metod kan returnera rätt svar men ändå göra fel.
-Det händer till exempel om den lämnar efter sig instansvariabler
-med felaktiga värden. En bra sätt att upptäcka den typen av fel
-är att använda en testmetod som undersöker om listan befinner
-sig i ett korrekt tillstånd:
-
-
-<ul>
-<li><code>size</code> måste vara lika med antalet <code>ListElement</code>.
-</li>
-<li>Om listan är tom så ska både <code>first</code> och <code>last</code>
-    vara nullpekare, annars ska de peka på listelement.
-</li>
-<li>Om ett element ligger sist i listan så ska dess <code>next</code>-pekare
-    vara null.
-</li>
-</ul>
-
-Implementera en metod <code>healthy()</code> som kollar detta.
-På lämpliga ställen, troligen ganska många, i din testkod ska du sedan
-anropa <code>healthy()</code> för att kontrollera att listan inte har
-gått sönder.
 

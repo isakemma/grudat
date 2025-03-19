@@ -1,7 +1,7 @@
 # Övning 3 grudat25
-### Fredag 19/4 kl 08.00
+### Deadline: Torsdag 3/4 kl 19:00
 
-**Vid övningen ska du vara beredd att muntligt presentera och diskutera dina lösningar och din programkod.**
+**Vid övningen ska du vara beredd att muntligt presentera och diskutera dina lösningar och din programkod. Du ska också ha med en utskrift av din inlämning för kamratgranskning på övningen.**
 
 - Gör (minst) en fil per uppgift och lägg filerna i katalogen <code>username-ovn3</code> i organisationen [grudat25 på KTH GitHub](https://gits-15.sys.kth.se/grudat25).
 - Utgå från mallarna i [/grudat25/ovn0/](https://github.com/isakemma/grudat/tree/master/ovn0).
