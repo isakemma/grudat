@@ -14,6 +14,18 @@ Du väljer själv vilket av programspråken Python, Go eller Java du vill använ
 
 ## Betyg G
 
+### 1.4 Eget litet program med test och dokumentation: Fakultet
+
+- Implementera fakultetsfunktionen för heltal.
+
+Utgå från en av mallarna
+
+- [github.com/isakemma/grudat/blob/master/ovn0/odd.py](https://github.com/isakemma/grudat/blob/master/ovn0/odd.py)
+- [github.com/isakemma/grudat/blob/master/ovn0/Odd.java](https://github.com/isakemma/grudat/blob/master/ovn0/Odd.java)
+- [github.com/isakemma/grudat/blob/master/ovn0/odd.go](https://github.com/isakemma/grudat/blob/master/ovn0/odd.go)
+
+[Tips och råd](https://www.youtube.com/watch?v=QRYvu1-H1xQ) (video)
+
 ### 2.1 Ordo-notation
 
 Ordna funktionerna i följande lista i växande ordning med
