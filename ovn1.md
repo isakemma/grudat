@@ -111,7 +111,7 @@ Mer information om Kattis hittar du i den här utmärkta [exempelmanualen](https
   Du får inte ändra klassens gränssnitt, dvs du får inte ändra **signaturerna** eller **dokumentationskommentarerna**
   på de  publika metoderna eller lägga till några andra publika metoder. Klassen ska kunna testas med din färdiga testsvit.
   Jag rekommenderar att du testar den ofta medan du skriver den!
-- Skicka in din färdiga lista tillsammans med din testsvit till ett annat [Kattisproblem] (https://kth.kattis.com/courses/DD1327/grudat25/assignments/otf5na/problems/kth.testyourlist) så att vi kan se att dina tester körts på din lista.
+- Skicka in din färdiga lista tillsammans med din testsvit till ett annat Kattisproblem: (https://kth.kattis.com/courses/DD1327/grudat25/assignments/otf5na/problems/kth.testyourlist) så att vi kan se att dina tester körts på din lista.
 
 - Beräkna den asymptotiska värstafallstiden för samtliga publika metoder i din implementation. (Gås igenom på föreläsning 2.)
   Uttryck tiden som en funktion av antalet element&nbsp;<i>n</i> i listan.
