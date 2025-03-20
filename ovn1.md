@@ -136,14 +136,3 @@ Titta gärna på exempelmallarna för Stacken i övning 0. (De visar hur man kan
 - Vilka sorters fel letar dina testfall efter? Vad är det sannolikt för fel på de testade implementationerna i Kattisproblemet? Räkna upp minst fem olika saker som måste ha varit felimplementerade!
 - Hur fungerade det att skriva den länkade listan när du hade testfallen klara? Brukar du göra så?
 
-### 1.4 Eget litet program med test och dokumentation: Fakultet
-
-- Implementera fakultetsfunktionen för heltal.
-
-Utgå från en av mallarna
-
-- [github.com/isakemma/grudat/blob/master/ovn0/odd.py](https://github.com/isakemma/grudat/blob/master/ovn0/odd.py)
-- [github.com/isakemma/grudat/blob/master/ovn0/Odd.java](https://github.com/isakemma/grudat/blob/master/ovn0/Odd.java)
-- [github.com/isakemma/grudat/blob/master/ovn0/odd.go](https://github.com/isakemma/grudat/blob/master/ovn0/odd.go)
-
-[Tips och råd](https://www.youtube.com/watch?v=QRYvu1-H1xQ) (video)
