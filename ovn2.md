@@ -10,6 +10,13 @@
 Du väljer själv vilket av programspråken Python, Go eller Java du vill använda.
 **Observera att all kod på den här kursen ska dokumenteras och testas.**
 
+Mål:
+  - systematiskt testa program för att upptäcka fel
+  - designa och dokumentera programpaket som andra programmerare kan använda
+  - jämföra algoritmer med avseende på tids- och minnesåtgång
+  - implementera och konstruera algoritmer för grundläggande datastrukturer
+
+  
 ## Betyg G
 
 ### 2.1 Ordo-notation
