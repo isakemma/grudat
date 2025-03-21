@@ -18,7 +18,7 @@ exempel på ett lagom stort projekt.
 
 Det ska finnas ett publikt API, som lämpligen består av ett antal funktioner
 eller kanske en klass med tillhörande metoder. Som vanligt ska det finnas
-både **dokumentation** och **testkod**.
+både **dokumentation** och **testkod**. Observera att detta är något annat än ett användargränssnitt!
 Din kod ska dessutom uppfylla **de fem grundkraven** i den här
 texten om [mjukvarukonstruktion](http://yourbasic.org/algorithms/your-basic-api/).
 
