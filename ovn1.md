@@ -93,7 +93,7 @@ innan du lämnar in dem på ditt githubkonto.
 2. Du måste också [registrera dig på grudat25](https://kth.kattis.com/courses/DD1327/grudat25/register) i Kattis. 
 3. Om du gör uppgiften på workshop-passet, skapa en grupp i Kattis för uppgiften Workshop-problem med dina gruppkamrater så plagiatflaggas ni inte när ni skickar in samma kod.
 
-Mer information om Kattis hittar du i den här utmärkta [exempelmanualen](https://kth.kattis.com/help).
+Mer information om Kattis hittar du på [Kattis supportsidor](https://support.kattis.com/support/home).
 
 - Skriv <b>utförlig testkod</b> för en pythonimplementation av ovanstående api med pythons inbyggda modul unittest. Alla publika metoder ska testas.
   Glöm inte att kontrollera beteendet även för den tomma listan! Se exemplet [github.com/isakemma/grudat/blob/master/ovn0/StackTest.py](https://github.com/isakemma/grudat/blob/master/ovn0/StackTest.py)

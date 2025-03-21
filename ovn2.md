@@ -10,21 +10,7 @@
 Du väljer själv vilket av programspråken Python, Go eller Java du vill använda.
 **Observera att all kod på den här kursen ska dokumenteras och testas.**
 
-*Gör antingen uppgift 2.3 eller 2.5, inte båda.*
-
 ## Betyg G
-
-### 1.4 Eget litet program med test och dokumentation: Fakultet
-
-- Implementera fakultetsfunktionen för heltal.
-
-Utgå från en av mallarna
-
-- [github.com/isakemma/grudat/blob/master/ovn0/odd.py](https://github.com/isakemma/grudat/blob/master/ovn0/odd.py)
-- [github.com/isakemma/grudat/blob/master/ovn0/Odd.java](https://github.com/isakemma/grudat/blob/master/ovn0/Odd.java)
-- [github.com/isakemma/grudat/blob/master/ovn0/odd.go](https://github.com/isakemma/grudat/blob/master/ovn0/odd.go)
-
-[Tips och råd](https://www.youtube.com/watch?v=QRYvu1-H1xQ) (video)
 
 ### 2.1 Ordo-notation
 
@@ -53,7 +39,9 @@ Vilka av följande påståenden är sanna? Motivera dina svar.
 <li><i>n</i>(<i>n</i>&nbsp;+&nbsp;1)&nbsp;/&nbsp;2 = <i>O</i>(<i>n</i><sup>2</sup>)</li>
 <li><i>n</i>(<i>n</i>&nbsp;+&nbsp;1)&nbsp;/&nbsp;2 = &Theta;(<i>n</i><sup>3</sup>)</li>
 <li><i>n</i>(<i>n</i>&nbsp;+&nbsp;1)&nbsp;/&nbsp;2 = &Omega;(<i>n</i>)</li>
+<li>Om du har två funktioner, <i>f<sub>1</sub>(n)</i>&nbsp;=&nbsp;<i>n</i> och <i>f<sub>2</sub>(n)</i>&nbsp;=någon annan funktion av <i>n</i>, gäller då alltid antingen att <i>f<sub>1</sub>(n)</i>&nbsp;=&nbsp;<i>O</i>(<i>f<sub>2</sub>(n)</i>)</li> eller att <i>f<sub>2</sub>(n)</i>&nbsp;=&nbsp;<i>O</i>(<i>f<sub>1</sub>(n)</i>)?</li>
 </ul>
+
 
 [Video om ordo-notation](https://www.youtube.com/watch?v=rZvpB4Ip2_M)
 
@@ -65,15 +53,16 @@ Vi vill beräkna en vektor <i>B</i>, där <i>B</i>[i]&nbsp;=
 Här är en enkel algoritm som löser problemet.
 
 <pre><code><b>for</b> i = 0 <b>to</b> n-1
-    Add the numbers A[0] thru A[i].
-    Store the result in B[i].
+    B[i] = 0
+    <b>for</b> j = 0 <b>to</b> i
+        B[i] += A[j]
 </code></pre>
 
 - Beräkna tidskomplexiteten för denna algoritm och uttryck den på
   formen&nbsp;<i>O</i>(<i>f(n)</i>), där funktionen&nbsp;<i>f(n)</i>
   är så liten och enkel som möjligt.
 
-- Visa att tidskomplexiteten också är &Omega;(<i>f(n)</i>).
+- Visa att tidskomplexiteten också är &Omega;(<i>f(n)</i>). (Tidskomplexiteten för just denna implementation, använd definitionen!)
 
 - Hitta på en algoritm med bättre asymptotisk tidskomplexitet.
   Beskriv algoritmen i pseudokod och ange dess
@@ -85,29 +74,28 @@ Här är en enkel algoritm som löser problemet.
 
 Implementera ett *obalanserat* binärt sökträd som lagrar textsträngar.
 
--  Använd koden för den länkade listan i övning&nbsp;1 som mall.
 - Gör ett tydligt API med publika dokumenterade metoder.
 - Skriv utförlig testkod.
+- Använd koden för den länkade listan i övning&nbsp;1 som mall för ditt träd.
 
 Följande metoder ska finnas:
 
 - Skapa ett tomt träd.
-- Lägg till ett nytt element.
+- Lägg till ett nytt element. (Kalla den insert(x))
+- Undersök om ett element finns i trädet (Kalla den exist(x))
 - Returnera antalet element i trädet.
-- Returnerar en sträng med alla element i bokstavsordning.
+- Returnerar en sträng med alla element i bokstavsordning, separerade med mellanslag.
 
 *Ange tidskomplexiteten i värstafall för samtliga operationer.*
 
+
 [Tips och råd](https://www.youtube.com/watch?v=NCzRttSCeH4) (Video)
 
-## Betyg VG
+## Högrebetygsuppgift (värd 10 högrebetygspoäng)
 
-### 2.4 En ovanlig funktion?
+### 2.4 Treap
 
-Ge ett exempel på en positiv funktion <i>f(n)</i> sådan att
-<i>f(n)</i> varken är <i>O</i>(<i>n</i>) eller
-&Omega;(<i>n</i>).
+Modifiera uppgift 2.3 så att du får ett randomiserat binärt sökträd i stället för ett obalanserat träd. Uppdatera tidskomplexiteterna för operationerna där det behövs. Kom ihåg att testa och dokumentera! Alla tester av det obalanserade trädet ska fortfarande gå igenom. 
+(Ledning: Det kan vara svårt att skriva bra tester på internt tillstånd i trädet. Två möjligheter är att lägga till en publik metod som returnerar trädets maxhöjd och testa den, eller att prestandatesta trädet. Vi vill undvika linjära samband mellan storlek och tid om trädet är balanserat!)
 
-### 2.5 Treap (alternativ till 2.3)
-
-Gör uppgift 2.3 med ett randomiserat binärt sökträd i stället för ett obalanserat träd.
+Det finns problem i Kattis som hanterar binära sökträd, t.ex. https://open.kattis.com/problems/bst. Det ingår inte i kursen men kan ge lite hjälp med att skriva ett balanserat sökträd. Dock har detta problem sina egna givna modifikationer i trädets funktionalitet/insert-metod!
