@@ -1,5 +1,4 @@
-# Övning 3 grudat25
-Loopinvarianter och induktionsbevis
+# Övning 3 grudat25 - Loopinvarianter och induktionsbevis
 
 Mål:
 - Avgöra korrekthet för iterativa och rekursiva algoritmer
