@@ -1,4 +1,4 @@
-# Övning 3 grudat25 - Korrekthet och rekursiva algoritmer
+# Övning 3 grudat25 - Rekursiva algoritmer, induktionsbevis och loopinvarianter
 
 Mål:
 - Avgöra korrekthet för iterativa och rekursiva algoritmer
@@ -64,7 +64,7 @@ i ett statistiskt datamaterial är det värde som förekommer flest gånger.
 
 - Skriv en funktion som beräknar typvärdet för en vektor med heltal.
   Om flera värden är lika vanliga skall funktionen ge det minsta av dem.
-- Tidskomplexiteten för din algoritm ska vara *O*(*n*&nbsp;log&nbsp;*n*).
+- Tidskomplexiteten för din algoritm ska vara *O*(*n*&nbsp;log&nbsp;*n*). Motivera din komplexitet!
 
 Det är fritt fram att använda de datastrukturer och algoritmer
 som finns i standardbiblioteken för Python, Java eller Go.
@@ -82,7 +82,7 @@ Observera också att det inte framgår av Python-dokumentationen vilken tidskomp
 - Skriv en effektiv funktion som ändrar ordningen på en vektor med tal så att de negativa talen kommer först.
   Vektorn ska inte sorteras, du behöver endast samla alla negativa tal för sig.
 - Skriv en **loopinvariant** som förklarar hur koden fungerar.
-- Räkna också ut tidskomplexiteten för din algoritm. Algoritmen måste ha *O*(*n*) tidskomplexitet.
+- Räkna också ut tidskomplexiteten för din algoritm. Visa/motivera uträkningen. Algoritmen måste ha *O*(*n*) tidskomplexitet.
 - Det räcker med förväntad (expected) tid, men värstafall går förstås också bra.
 
 Algoritmen ska vara **in-place** ([Wikipedia: In-place algorithm](https://en.wikipedia.org/wiki/In-place_algorithm)),
