@@ -1,5 +1,5 @@
 # Övning 2 grudat25
-### Deadline: Torsdag 27/3 kl 19:00
+### Deadline: Fredag 28/3 kl 19:00
 
 **Vid övningen ska du vara beredd att muntligt presentera och diskutera dina lösningar och din programkod. Du ska också ha med en utskrift av din inlämning för kamratgranskning på övningen.**
 
