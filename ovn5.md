@@ -66,12 +66,10 @@ Vilka av följande uttryck följer fågelljudssyntaxen? Visa **hur** de ljud som
 
 ### 5.5 En noggrann lärare
 
-En plikttrogen lärare vill dela ut uppgifter till sina elever så att inga som känner varandra får samma uppgift.
-Läraren är optimist – och dessutom lite lat – så han tror att det räcker med två uppgifter.
-Designa en algoritm som testar om det stämmer.
+En ny pandemi har nått landet finns i två helt olika varianter som har var sitt vaccin. Båda skyddar fullständigt både från sjukdom och från att smitta andra, men bara mot den variant de är utvecklade för. Biverkningarna blir svåra om någon tar båda vaccinen, och smittskyddsläkaren i ett landsting skissar på en vaccinationsstrategi. Hen tror att om vaccin administreras så att inget par av personer som umgås med varandra kan smitta den andra så är vi hemma. Designa en algoritm som avgör om denna strategi är möjlig!
 
-Modellera problemet med en graf där varje hörn motsvarar en elev.
-Grafen har kanter mellan de hörn som motsvarar elever som känner varandra.
+Modellera problemet med en graf där varje hörn motsvarar en en person.
+Grafen har kanter mellan de hörn som motsvarar personer som umgås med varandra.
 Algoritmen ska baseras på en metodisk genomgång av grafen med BFS eller DFS.
 
 - Beskriv din algoritm i pseudokod.
