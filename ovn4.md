@@ -1,6 +1,10 @@
 # Övning 4 grudat25 
 ### Deadline: Fredag 11/4 kl 12:00
 
+Mål:
+ - jämföra algoritmer med avseende på tids- och minnesåtgång
+ - beskriva och implementera olika algoritmer för sökning och sortering
+   
 **Vid övningen ska du vara beredd att muntligt presentera och diskutera dina lösningar och din programkod. Du ska också ha med en utskrift av din inlämning för kamratgranskning på övningen.**
 
 - Gör (minst) en fil per uppgift och lägg filerna i katalogen <code>username-ovn4</code> i organisationen [grudat25 på KTH GitHub](https://gits-15.sys.kth.se/grudat25).
