@@ -1,6 +1,11 @@
 # Övning 5 grudat25
 ### Deadline: Fredag 18/4 kl 12:00
 
+Mål:
+ - modellera problem med grafer och implementera algoritmer för grafsökning
+ - skriva och använda enkel BNF-syntax
+ - implementera och konstruera algoritmer för grundläggande datastrukturer (VG)
+
 **Vid övningen ska du vara beredd att muntligt presentera och diskutera dina lösningar och din programkod. Du ska också ha med en utskrift av din inlämning för kamratgranskning på övningen.**
 
 - Gör (minst) en fil per uppgift och lägg filerna i katalogen <code>username-ovn5</code> i organisationen [grudat25 på KTH GitHub](https://gits-15.sys.kth.se/grudat25).
@@ -64,9 +69,9 @@ Vilka av följande uttryck följer fågelljudssyntaxen? Visa **hur** de ljud som
 
 ## Betyg VG
 
-### 5.5 En noggrann lärare
+### 5.5 En provisorisk strategi?
 
-En ny pandemi har nått landet finns i två helt olika varianter som har var sitt vaccin. Båda skyddar fullständigt både från sjukdom och från att smitta andra, men bara mot den variant de är utvecklade för. Biverkningarna blir svåra om någon tar båda vaccinen, och smittskyddsläkaren i ett landsting skissar på en vaccinationsstrategi. Hen tror att om vaccin administreras så att inget par av personer som umgås med varandra kan smitta den andra så är vi hemma. Designa en algoritm som avgör om denna strategi är möjlig!
+En ny pandemi har nått landet finns i två helt olika varianter som det rekordsnabbt har utvecklats var sitt vaccin för. Båda skyddar fullständigt både från sjukdom och från att smitta andra, men bara mot den variant de är utvecklade för. Biverkningarna blir svåra om någon tar båda vaccinen, och smittskyddsläkaren i ett landsting skissar på en vaccinationsstrategi. Hen tror att om vaccin administreras så att inget par av personer som umgås med varandra kan smitta den andra med någon av varianterna så är vi hemma. Designa en algoritm som avgör om denna strategi är möjlig!
 
 Modellera problemet med en graf där varje hörn motsvarar en en person.
 Grafen har kanter mellan de hörn som motsvarar personer som umgås med varandra.
