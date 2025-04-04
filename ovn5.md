@@ -59,12 +59,15 @@ Vi har en BNF-syntax för fågelljud enligt följande:
 	<FRAS> :== <LJUD> | TJI <LJUD> | <LJUD><FRAS> TJIRRP
 
 Vilka av följande uttryck följer fågelljudssyntaxen? Visa **hur** de ljud som var ok följer syntaxen! 
-1. PIPPIPIP
-2. PIPTJIRRRP
-3. TJITITJIRRP
-4. TJIRRP
-5. TITIPIP
-6. TJITITI
+1. PIPPIPPIP (PIP-PIP-PIP)
+2. PIPTJIRRP (PIP-TJIRRP)
+3. TJITITJIRRP (TJI-TI-TJIRRP)
+4. TITJITITJIRRP (TI-TJI-TI-TJIRRP)
+5. TJIRRP
+6. TITIPIP (TI-TI-PIP)
+7. TJITITI (TJI-TI-TI)
+8. PIP
+9. TITJITITJIRRPTJIRRP (TI-TJI-TI-TJIRRP-TJIRRP)
 
 
 ## Betyg VG
