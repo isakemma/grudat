@@ -74,7 +74,7 @@ Vilka av följande uttryck följer fågelljudssyntaxen? Visa **hur** de ljud som
 
 ### 5.5 En provisorisk strategi?
 
-En ny pandemi har nått landet finns i två helt olika varianter som det rekordsnabbt har utvecklats var sitt vaccin för. Båda skyddar fullständigt både från sjukdom och från att smitta andra, men bara mot den variant de är utvecklade för. Biverkningarna blir svåra om någon tar båda vaccinen, och smittskyddsläkaren i ett landsting skissar på en vaccinationsstrategi. Hen tror att om vaccin administreras så att inget par av personer som umgås med varandra kan smitta den andra med någon av varianterna så är vi hemma. Designa en algoritm som avgör om denna strategi är möjlig!
+En ny pandemi har nått landet finns i två helt olika varianter som det rekordsnabbt har utvecklats var sitt vaccin för. Båda skyddar fullständigt både från sjukdom och från att smitta andra, men bara mot den variant de är utvecklade för. Biverkningarna blir svåra om någon tar båda vaccinen, och smittskyddsläkaren i ett landsting skissar på en vaccinationsstrategi. Hen tror att om vaccin administreras så att inget par av vuxna personer (barn inkluderas alltså inte) som umgås med varandra kan smitta den andra med någon av varianterna så är vi hemma. Designa en algoritm som avgör om denna strategi är möjlig!
 
 Modellera problemet med en graf där varje hörn motsvarar en en person.
 Grafen har kanter mellan de hörn som motsvarar personer som umgås med varandra.
