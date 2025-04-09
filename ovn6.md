@@ -1,4 +1,4 @@
-# Övning 6 grudat25
+# Övning 6 grudat25 (OBS! Ej klar!)
 ### Deadline: Onsdag 30/4 kl 19:00
 
 Mål:
