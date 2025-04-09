@@ -25,9 +25,9 @@ texten om [mjukvarukonstruktion](http://yourbasic.org/algorithms/your-basic-api/
 ### Inlämning av API och dokumentation
 
 En första version av API och övrig dokumentation ska vara klar till övning 6,
-torsdag 17/4 kl&nbsp;19:00. Du kommer då att få presentera ditt projekt för övriga medlemmar i gruppen.
+fredag 18/4 kl&nbsp;12:00. Du kommer då att få presentera ditt projekt för övriga medlemmar i gruppen.
 
 ### Slutlig inlämning
 
 Feedback kommer inom en vecka. Du har sedan tre veckor på dig att slutföra projektet, men det återstår också en övning under dessa veckor.
-**Version 1.0** ska vara incheckat på ditt githubkonto torsdag 15/5, kl.&nbsp;19:00.
+**Version 1.0** ska vara incheckat på ditt githubkonto fredag 16/5, kl.&nbsp;12:00.
