@@ -124,8 +124,8 @@ Det som är svårt för oss är att programmet som löser uppgiften ska kunna l�
 
 Några saker att tänka på:
 * Det är olika grammatiker som ska testas, inte bara den i sample. Den i sample är väldigt förenklad jämfört med vad programmet ska klara.
-* * Om du kör fast, testa att generera en egen (maximalt stor) grammatik och provkör lokalt.
-* Det finns typiskt många olika regler för varje symbol. A->AB, A->BB, A->CD, A->x, o.s.v.
+  * Om du kör fast, testa att generera en egen (maximalt stor) grammatik och provkör lokalt.
+* Det finns typiskt många olika regler för varje symbol. A->AB, A->BB, A->CD, A->x, A->z o.s.v.
 * Det finns typiskt cykliska förhållanden mellan symboler, A-> BC, B->CA, C->BA o.s.v.
 * När man tillämpar en regel så kan aldrig strängen bli kortare. Om du genererat något som är längre än strängen du vill kolla om den är i grammatiken är det dags att sluta.
 
