@@ -20,8 +20,7 @@ innan du lämnar in dem på ditt githubkonto. Om du inte gjorde övning 1 behöv
 
 
 
-## Betyg G
-### Dynamisk programmering
+## 6.1 Dynamisk programmering
 
 <!-- CC BY-SA 2.0: https://www.flickr.com/photos/bekathwia/5148701602 -->
 ![Knitting machine HACKED](https://github.com/isakemma/grudat/blob/master/knitting-machine-hacked.jpg)
@@ -51,29 +50,21 @@ Följande rekursion beräknar den maximala inkomsten p(n) som man kan tjäna gen
 
 [Tips om dynamisk programmering](https://www.youtube.com/watch?v=obslDoqkm7E) (video)
 
-Uppdatera koden så att den inte bara beräknar den maximala inkomsten,
-utan också ger en lista över halsdukar (garnåtgång och antal) som uppnår detta.
-Om det finns flera möjliga lösningar så räcker det om du anger en.
 
-### Reguljära uttryck (Kattis)
+## 6.2 Reguljära uttryck (Kattis)
 
-#### Uppgift [kth.<kattisnamn>](https://kth.kattis.com/courses/DD1327/grudat25/assignments/xxxx)
+### Uppgift [kth.<kattisnamn>](https://kth.kattis.com/courses/DD1327/grudat25/assignments/xxxx)
 
 [Tips om reguljära uttryck](https://www.youtube.com/watch?v=NvKvCXac7sM) (video)
 
 Dina funktioner måste ligga i en fil som heter s1.py, annars får du Run Time Error (“ImportError”) i Kattis.
 
-Använd kodskelettet [s1.py](s1.py). Funktionerna i skelettet returnerar alla en tom sträng,
+Använd kodskelettet [regex.py](regex.py). Funktionerna i skelettet returnerar alla en tom sträng,
 men de ska i din lösning returnera strängar som innehåller reguljära uttryck som löser deluppgifterna nedan.
-I två av uppgifterna ska det reguljära uttryck du konstruerar bero på en söksträng som skickas som
-indata.
 
 De uttryck du konstruerar får vara högst 250 tecken långa (en generöst tilltagen gräns),
 förutom i de två uppgifterna som tar en söksträng som indata.
 Om du i någon av de andra uppgifterna returnerar ett för långt uttryck så får du ett Run Time Error i Kattis.
-I de två uppgifterna med en söksträng som indata finns ingen specifik övre gräns
-på hur långt ditt uttryck får vara, men om det är för långt och komplicerat
-kommer din lösning att få Time Limit Exceeded.
 
 I uppgifter där kravet är att hela strängen ska uppfylla något villkor så måste du använda
 de speciella symbolerna ^ och $.
@@ -82,18 +73,61 @@ Kattis kommer att testa uppgifterna i ordning. När du är klar med första uppg
 kan du alltså skicka in din lösning och se om du klarar alla testfall som hör
 till första uppgiften, och så vidare.
 
-### 1.
+### 6.2.1 Oktal sträng (första testfallet)
+Skriv ett regex som matchar en sträng om och endast om den består av enbart oktala tal, dvs i talbasen 8.
 
-### 2. 
+### 6.6.2 ISIN (andra testfallet)
+Vid publik fondhandel har alla värdeinstrument en ISIN-kod, som är en unik identifierare. Skriv ett regex som matchar en sträng om och endast om den uppfyller kraven för ett ISIN-nummer, som uppfyller följande regler [från ISIN-formatets definition](https://www.isin.org/isin-format/):
 
-### 3. 
+- Första två tecknen är bokstäver, versaler (motsvarar en landskod, men du behöver inte kolla att landskoden existerar)
+- Följande nio tecken är alfanumeriska (versaler)
+- Det sista tecknet är en kontrollsiffra (du behöver inte implementera stöd för att verifiera kontrollsiffran).
 
-### 4. 
+### 6.2.3 Glömt att skriva strängrepresentation för klass (tredje testfallet)
+När ett pythonprogram skriver ut objekt, och programmeraren glömt att ange hur objektens strängrepresentation ska se ut med \_\_str\_\_- eller \_\_repr\_\_-metod, så kommer utskriften att meddela att det fanns något objekt av en viss klass på en viss minnesadress, t.ex.
 
-## VG-uppgift (10 högrebetygspoäng): Mer dynamisk programmering eller miniräknarsyntax?
+   > <\_\_main\_\_.Ball object at 0x106f81048>
 
+eller
+
+> <importeratPaket.Klass object at 0x40ef72d55>
+
+Skriv ett regex som känner igen om en sträng _innehåller_ sådana objektutskrifter. Observera att tecknen `<` och `>` ingår i uttrycket!
+* \_\_main\_\_ är namnet på paketet med objektet (du kan anta att namnet börjar med en liten bokstav och att det i övrigt består av giltiga tecken), 
+* Ball är namnet på klassen som saknar strängrepresentation (du kan anta att den är ett klassnamn som följer standarden för namngivning av klasser) 
+* och 0x106f81048 är en hexadeximal minnesadress (0x följt av hexadecimala siffror) Antag i detta problem att siffrorna a-f skrivs gemena. Låtsas att det är mellan 8 och 16 hexadecimala siffror!
+
+### 6.2.4 Komplexa tal i python (fjärde testfallet)
+Python har inbyggt stöd för komplexa tal som får en egen typ och som känns igen av imaginärdelen. Komplexa tal består av en realdel som skrivs som ett flyttal och en imaginärdel som skrivs som ett flyttal med j eller J direkt efter, t.ex. 2+5j eller -1-0.15J. 
+Om imaginärdelen är 0 måste talet innehålla 0j eller 0J, annars tolkas plus och minus som operationer. Om imaginärdelen är 1j måste ettan skrivas ut av samma skäl. (Egentligen tillåts alla float-värden inklusive Infinity och NaN, och tal på exponentform, men dem behöver du inte matcha. I den här uppgiften tillåter vi inte heller .3j, utan kräver 0.3j för att uttrycka det talet. Du behöver inte heller kunna byta ordning på real- och imaginärdelen eller tillåta variabler som realdel, vilket Python skulle acceptera.) 
+Skriv ett reguljärt uttryck som känner igen sådana här komplexa tal!
+
+### 6.2.5 Alfabetiskt sorterad? (femte testfallet)
+Du läser en sträng och ska avgöra om alla tecken på plats i+x är större än tecknet på plats i, för varje i och alla x $\geq$ 1.
+Indata är strängar med små bokstäver. Skriv ett reguljärt uttryck som avgör om strängen uppfyller kravet!
+
+### 6.2.6 Sjörövarspråket (sjätte testfallet)
+Skriv ett reguljärt uttryck som matchar alla strängar på sjörövarspråket uttryckt i versaler. Testtexterna innehåller inga andra tecken än versala svenska bokstäver och inga andra skiljetecken än `.,!?`  eller några whitespace förutom space (mellanslag).
+
+  
+## VG-uppgift (10 högrebetygspoäng): Mer dynamisk programmering
+
+Uppdatera koden så att den inte bara beräknar den maximala inkomsten,
+utan också ger en lista över halsdukar (garnåtgång och antal) som uppnår detta.
+Om det finns flera möjliga lösningar så räcker det om du anger en.
 
 
 ## VG-uppgift (10 högrebetygspoäng): Syntax, svårare
+Lös uppgiften [kth.<kattisnamn>](https://kth.kattis.com/courses/DD1327/grudat25/assignments/xxxx)
+I det här fallet känner vi inte igen formatet från vår BNF-syntax, men vi känner igen omskrivningsregler, slutsymboler och icke-slutsymboler.
+Det som är svårt för oss är att programmet som löser uppgiften ska kunna läsa in syntaxen som del av testdatat, och sedan avgöra om några strängar ingår i det språk syntaxen definierar. Vi kan alltså inte använda rekursiv medåkning utan måste implementera någon sorts sökning i språket där vi substituerar icke-slutsymboler med andra symboler.
 
+Några saker att tänka på:
+* Det är olika grammatiker som ska testas, inte bara den i sample. Den i sample är väldigt förenklad jämfört med vad programmet ska klara.
+* * Om du kör fast, testa att generera en egen (maximalt stor) grammatik och provkör lokalt.
+* Det finns typiskt många olika regler för varje symbol. A->AB, A->BB, A->CD, A->x, o.s.v.
+* Det finns typiskt cykliska förhållanden mellan symboler, A-> BC, B->CA, C->BA o.s.v.
+* När man tillämpar en regel så kan aldrig strängen bli kortare. Om du genererat något som är längre än strängen du vill kolla om den är i grammatiken är det dags att sluta.
+
+Att få full poäng på den här uppgiften kräver algoritmiska insikter på en nivå som ligger över kursens mål. Du behöver inte klara alla testfall utan det räcker med den första gruppen, dvs det räcker med 60 poäng på uppgiften. (För problem av den storleken måste inte algoritmen vara optimal. Även en klokt implementerad totalsökning kan fungera.)
 
