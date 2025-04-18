@@ -2,31 +2,31 @@
 
 # De här funktionerna ska returnera reguljära uttryck som löser uppgifterna på övningen.
 
-def dna():          # uppgift 1
+def oktal():          # uppgift 1
     return ""
 
-def sorted():       # uppgift 2
+def ISIN():       # uppgift 2
     return ""
 
-def hidden1(x):     # uppgift 3
-# Input x är strängen som vi vill söka efter.
+def address():     # uppgift 3
     return ""
 
-def hidden2(x):     # uppgift 4
-# Input x är strängen som vi vill söka efter.
+def complex():     # uppgift 4
     return ""
 
-def equation():     # uppgift 5
+def sorted():     # uppgift 5
     return ""
+
+def sjorovare():
+    return ""     #uppgift 6
 
 # Här är lite kod som du kan använda för att provköra dina
 # reguljära uttryck. Koden definierar en main-metod som läser
 # rader från standard input och kollar vilka reguljära uttryck
-# som matchar indata-raden. För de två hidden-uppgifterna
-# används söksträngen x="test" (kan lätt ändras).
+# som matchar indata-raden. 
 #
 # För att provköra från terminalen, skriv:
-# > python s1.py
+# > python regex.py
 # Skriv in teststrängar:
 # [skriv här]
 # ...
@@ -35,9 +35,7 @@ from sys import stdin
 import re
 
 def main():
-    def hidden1_test(): return hidden1('test')
-    def hidden2_test(): return hidden2('test')
-    tasks = [dna, sorted, hidden1_test, hidden2_test, equation, parentheses, sorted3]
+    tasks = [oktal, isin, address, complex, sorted, sjorovare]
     print('Skriv in teststrängar:')
     while True:
         line = stdin.readline().rstrip('\r\n')
