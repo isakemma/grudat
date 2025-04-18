@@ -1,4 +1,4 @@
-# Övning 6 grudat25 (OBS! Ej klar!)
+# Övning 6 grudat25
 ### Deadline: Onsdag 30/4 kl 19:00
 
 Mål:
@@ -53,7 +53,7 @@ Följande rekursion beräknar den maximala inkomsten p(n) som man kan tjäna gen
 
 ## 6.2 Reguljära uttryck (Kattis)
 
-### Uppgift [kth.<kattisnamn>](https://kth.kattis.com/courses/DD1327/grudat25/assignments/xxxx)
+### Uppgift [kth.grudatregex](https://kth.kattis.com/courses/DD1327/grudat25/assignments/otf5na/problems/kth.grudatregex).
 
 [Tips om reguljära uttryck](https://www.youtube.com/watch?v=NvKvCXac7sM) (video)
 
@@ -107,6 +107,7 @@ Du läser en sträng och ska avgöra om alla tecken på plats i+x är större ä
 Indata är strängar med små bokstäver. Skriv ett reguljärt uttryck som avgör om strängen uppfyller kravet!
 
 ### 6.2.6 Sjörövarspråket (sjätte testfallet)
+Skriv ett reguljärt uttryck som matchar alla strängar på sjörövarspråket uttryckt i versaler. Sjörövarspråket (eller rövarspråket) är ett påhittat kodspråk av Astrid Lindgren där varje konsonant byts ut mot konsonanten, följt av ett ’O’, följt av konsonanten igen. T.ex. blir RÖVARSPRÅKET till RORÖVOVARORSOSPOPRORÅKOKETOT. 
 Skriv ett reguljärt uttryck som matchar alla strängar på sjörövarspråket uttryckt i versaler. Testtexterna innehåller inga andra tecken än versala svenska bokstäver och inga andra skiljetecken än `.,!?`  eller några whitespace förutom space (mellanslag).
 
   
@@ -118,7 +119,7 @@ Om det finns flera möjliga lösningar så räcker det om du anger en.
 
 
 ## VG-uppgift (10 högrebetygspoäng): Syntax, svårare
-Lös uppgiften [kth.<kattisnamn>](https://kth.kattis.com/courses/DD1327/grudat25/assignments/xxxx)
+Lös uppgiften [baylor.cfgparsing](https://kth.kattis.com/courses/DD1327/grudat25/assignments/otf5na/problems/baylor.cfgparsing).
 I det här fallet känner vi inte igen formatet från vår BNF-syntax, men vi känner igen omskrivningsregler, slutsymboler och icke-slutsymboler.
 Det som är svårt för oss är att programmet som löser uppgiften ska kunna läsa in syntaxen som del av testdatat, och sedan avgöra om några strängar ingår i det språk syntaxen definierar. Vi kan alltså inte använda rekursiv medåkning utan måste implementera någon sorts sökning i språket där vi substituerar icke-slutsymboler med andra symboler.
 
