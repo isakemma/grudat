@@ -103,7 +103,7 @@ Om imaginärdelen är 0 måste talet innehålla 0j eller 0J, annars tolkas plus 
 Skriv ett reguljärt uttryck som känner igen sådana här komplexa tal!
 
 ### 6.2.5 Alfabetiskt sorterad? (femte testfallet)
-Du läser en sträng och ska avgöra om alla tecken på plats i+x är större än tecknet på plats i, för varje i och alla x $\geq$ 1.
+Du läser en sträng och ska avgöra om alla tecken på plats i+x är större än eller lika med tecknet på plats i, för varje i och alla x $\geq$ 1.
 Indata är strängar med små bokstäver. Skriv ett reguljärt uttryck som avgör om strängen uppfyller kravet!
 
 ### 6.2.6 Sjörövarspråket (sjätte testfallet)
