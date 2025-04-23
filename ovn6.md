@@ -57,7 +57,7 @@ Följande rekursion beräknar den maximala inkomsten p(n) som man kan tjäna gen
 
 [Tips om reguljära uttryck](https://www.youtube.com/watch?v=NvKvCXac7sM) (video)
 
-Dina funktioner måste ligga i en fil som heter s1.py, annars får du Run Time Error (“ImportError”) i Kattis.
+Dina funktioner måste ligga i en fil som heter regex.py, annars får du Run Time Error (“ImportError”) i Kattis.
 
 Använd kodskelettet [regex.py](regex.py). Funktionerna i skelettet returnerar alla en tom sträng,
 men de ska i din lösning returnera strängar som innehåller reguljära uttryck som löser deluppgifterna nedan.
