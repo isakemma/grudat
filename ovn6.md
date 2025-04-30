@@ -92,14 +92,16 @@ eller
 
 > <importeratPaket.Klass object at 0x40ef72d55>
 
-Skriv ett regex som känner igen om en sträng _innehåller_ sådana objektutskrifter. Observera att tecknen `<` och `>` ingår i uttrycket!
-* \_\_main\_\_ är namnet på paketet med objektet (du kan anta att namnet börjar med en liten bokstav och att det i övrigt består av giltiga tecken), 
+* \_\_main\_\_ är namnet på modulen med objektet (Du kan anta att namnet börjar med en liten bokstav och att det i övrigt består av giltiga tecken. För enkelhets skull behöver vi inte känna till vilka interna paket som kan förekomma, utan accepterar dubbla underscore runt alla modulnamn.) 
 * Ball är namnet på klassen som saknar strängrepresentation (du kan anta att den är ett klassnamn som följer standarden för namngivning av klasser) 
 * och 0x106f81048 är en hexadeximal minnesadress (0x följt av hexadecimala siffror) Antag i detta problem att siffrorna a-f skrivs gemena. Låtsas att det är mellan 8 och 16 hexadecimala siffror!
+  
+Skriv ett regex som känner igen om en sträng _innehåller_ sådana objektutskrifter.  För mer info och exempel, se Kattisuppgiften. Observera att tecknen `<` och `>` ingår i uttrycket!
+
 
 ### 6.2.4 Komplexa tal i python (fjärde testfallet)
 Python har inbyggt stöd för komplexa tal som får en egen typ och som känns igen av imaginärdelen. Komplexa tal består av en realdel som skrivs som ett flyttal och en imaginärdel som skrivs som ett flyttal med j eller J direkt efter, t.ex. 2+5j eller -1-0.15J. 
-Om imaginärdelen är 0 måste talet innehålla 0j eller 0J, annars tolkas plus och minus som operationer. Om imaginärdelen är 1j måste ettan skrivas ut av samma skäl. (Egentligen tillåts alla float-värden inklusive Infinity och NaN, och tal på exponentform, men dem behöver du inte matcha. I den här uppgiften tillåter vi inte heller .3j, utan kräver 0.3j för att uttrycka det talet. Du behöver inte heller kunna byta ordning på real- och imaginärdelen eller tillåta variabler som realdel, vilket Python skulle acceptera.) 
+Om realdelen är noll behöver den inte skrivas ut. Om den är positiv är det tillåtet att ha med ett plustecken före. Om imaginärdelen är 0 måste talet innehålla 0j eller 0J, annars tolkas plus och minus som operationer. Om imaginärdelen är 1j måste ettan skrivas ut av samma skäl. (Egentligen tillåts alla float-värden inklusive Infinity och NaN, och tal på exponentform, men dem behöver du inte matcha. I den här uppgiften tillåter vi inte heller .3j, utan kräver 0.3j för att uttrycka det talet. Du behöver inte heller kunna byta ordning på real- och imaginärdelen eller tillåta variabler som realdel, vilket Python skulle acceptera.) 
 Skriv ett reguljärt uttryck som känner igen sådana här komplexa tal!
 
 ### 6.2.5 Alfabetiskt sorterad? (femte testfallet)
@@ -109,6 +111,8 @@ Indata är strängar med små bokstäver. Skriv ett reguljärt uttryck som avgö
 ### 6.2.6 Sjörövarspråket (sjätte testfallet)
 Skriv ett reguljärt uttryck som matchar alla strängar på sjörövarspråket uttryckt i versaler. Sjörövarspråket (eller rövarspråket) är ett påhittat kodspråk av Astrid Lindgren där varje konsonant byts ut mot konsonanten, följt av ett ’O’, följt av konsonanten igen. T.ex. blir RÖVARSPRÅKET till RORÖVOVARORSOSPOPRORÅKOKETOT. 
 Skriv ett reguljärt uttryck som matchar alla strängar på sjörövarspråket uttryckt i versaler. Testtexterna innehåller inga andra tecken än versala svenska bokstäver och inga andra skiljetecken än `.,!?`  eller några whitespace förutom space (mellanslag).
+
+
 
   
 ## VG-uppgift (10 högrebetygspoäng): Mer dynamisk programmering
