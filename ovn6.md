@@ -64,7 +64,7 @@ men de ska i din lösning returnera strängar som innehåller reguljära uttryck
 
 De uttryck du konstruerar får vara högst 250 tecken långa (en generöst tilltagen gräns),
 förutom i de två uppgifterna som tar en söksträng som indata.
-Om du i någon av de andra uppgifterna returnerar ett för långt uttryck så får du ett Run Time Error i Kattis.
+Om du i någon av de andra uppgifterna returnerar ett för långt uttryck så får du Wrong Answer i Kattis.
 
 I uppgifter där kravet är att hela strängen ska uppfylla något villkor så måste du använda
 de speciella symbolerna ^ och $.
