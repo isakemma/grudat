@@ -1,5 +1,5 @@
 # Kompletteringsuppgifter för övning 1-3 (grudat25)
-### Fredag 25/4 kl 12:00
+### Lämnas in i omtentaperioden (senast fredag 12/6 kl 12:00)
 
 - Lös bara uppgifter för delar du blivit underkänd på och lämna in svaren i katalogen <code>komplettering</code> i organisationen [grudat25 på KTH GitHub](https://gits-15.sys.kth.se/grudat25).
 - Utgå från mallarna i [/grudat25/ovn0/](https://github.com/isakemma/grudat/tree/master/ovn0).
